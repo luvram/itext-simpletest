@@ -1,4 +1,4 @@
-package com.itext.simpleapi.controller;
+package com.luvram.simpleapi.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

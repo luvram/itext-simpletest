@@ -1,4 +1,4 @@
-package com.itext.simpleapi;
+package com.luvram.simpleapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

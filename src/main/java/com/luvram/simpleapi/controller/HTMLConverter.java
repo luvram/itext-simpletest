@@ -1,4 +1,4 @@
-package com.itext.simpleapi.controller;
+package com.luvram.simpleapi.controller;
 
 import java.io.File;
 import java.io.InputStream;
@@ -41,7 +41,7 @@ public class HTMLConverter {
 		pdf.getParentFile().mkdirs();
 
 		/** Extract Base URL */
-		Pattern p = Pattern.compile("((http|https)(:\\/\\/)[A-Za-z0-9-_\\\\.]*|(:(\\d{2,4})))");
+		Pattern p = Pattern.compile("((http|https):\\/\\/[A-Za-z0-9-_\\\\.]*+(:\\d{2,4})|/)");
 		Matcher m = p.matcher(url);
 		String baseUri = null;
 		if (m.find()) {
